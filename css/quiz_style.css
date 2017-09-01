@@ -10,10 +10,11 @@ header {
 body {
   width: 600px;
   margin: auto;
-  font-family: sans-serif;
-  font-size: 1em;
-  font-style: oblique;
   background-color: #dadadb; }
+  body font {
+    family: sans-serif;
+    size: 1em;
+    style: oblique; }
 
 h1 {
   color: #58a0e0; }
@@ -40,9 +41,9 @@ h3 {
 ul {
   margin-left: 50px; }
 
-p {
-  font-family: serif;
-  font-style: normal; }
+p font {
+  family: sans-serif;
+  style: normal; }
 
 .samplepara {
   border: 3px solid #58a0e0;
@@ -58,10 +59,11 @@ footer {
   background-color: aliceblue; }
 
 #footer {
-  font-size: .75em;
-  font-style: italic;
-  font-weight: bold;
   color: #064277;
   text-align: center; }
+  #footer font {
+    size: .75em;
+    style: italic;
+    weight: bold; }
 
 /*# sourceMappingURL=quiz_style.css.map */
